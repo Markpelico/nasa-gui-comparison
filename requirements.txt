@@ -1,21 +1,22 @@
-# NASA GUI Framework Comparison - Dependencies
+# Hatch Control GUI Framework Comparison - Dependencies
+# =====================================================
 # Install all: pip install -r requirements.txt
-# Or install individually as needed
+# Or install individually for the framework you want to use
 
-# ttkbootstrap - Modern themed tkinter
+# ttkbootstrap - Modern themed tkinter extension
 # Uses tkinter (built-in) as base
 ttkbootstrap>=1.10.1
 
-# CustomTkinter - Modern tkinter UI library
+# CustomTkinter - Modern UI library based on tkinter
 customtkinter>=5.2.0
 
-# PyQt6 - Qt6 bindings for Python
+# PyQt6 - Qt6 bindings for Python (GPL/Commercial license)
 PyQt6>=6.5.0
 
-# PySide6 - Official Qt for Python (also includes Qt Designer)
-# Includes: pyside6-designer command for visual UI design
+# PySide6 - Official Qt for Python (LGPL license)
+# Includes pyside6-designer for visual UI design
 PySide6>=6.5.0
 
-# Note: You only need to install the framework(s) you want to use
-# Each script is independent and only requires its specific framework
+# Note: Each script is independent
+# You only need to install the framework(s) you want to use
 
